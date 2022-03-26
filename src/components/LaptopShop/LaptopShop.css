@@ -17,6 +17,9 @@
 
 }
 @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .shop-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
     .laptops-area{
         grid-template-columns: repeat(1, 1fr);
     }
