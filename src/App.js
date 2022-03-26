@@ -4,7 +4,7 @@ import LaptopShop from './components/LaptopShop/LaptopShop';
 function App() {
   return (
     <div className="App">
-      <h1>Laptop Shop</h1>
+      <h1>Laptop <span>Shop</span></h1>
       <LaptopShop></LaptopShop>
     </div>
   );

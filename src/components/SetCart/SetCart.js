@@ -18,8 +18,8 @@ const SetCart = ({carts,laptop,suggestProduct, suggest, removeCart}) => {
               <p>{product[Math.floor(Math.random() * laptop.length)].name}</p> </div>)  
             }
             </div>
-            <button className='suggest-product' onClick={() => suggestProduct(laptop)}>choose 1 for me</button>
-            <button className='suggest-product' onClick={() => removeCart()}>choose again</button>
+            <button className='btn-product' onClick={() => suggestProduct(laptop)}>choose 1 for me</button>
+            <button className='btn-product' onClick={() => removeCart()}>choose again</button>
         </div>
         
     );

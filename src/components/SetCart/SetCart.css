@@ -16,7 +16,7 @@
      margin-left: 10px;
 }
 
-.suggest-product{
+.btn-product{
     width: 60%;
     border-radius: 5px;
     text-transform: uppercase;
@@ -26,7 +26,17 @@
     margin-top: 20px;
 }
 
-.suggest-product:hover {
+.btn-product:hover {
     border: 1px solid #2b373f;
     background-color: orange;
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+   .btn-product{
+       width: 100%;
+       padding: 0;
+   }
+   .product-img {
+       display: none;
+   }
 }

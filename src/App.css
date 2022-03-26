@@ -27,6 +27,16 @@
 .App-link {
   color: #61dafb;
 }
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+span {
+  color: orange;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+}
 
 @keyframes App-logo-spin {
   from {
