@@ -26,7 +26,7 @@ const LaptopShop = () => {
             <div className='info-area'>
                 <h3>Select Products</h3>
                 {
-                    carts.map(cart => <p>{cart.picture} {cart.name}</p>)
+                    carts.map(cart =>  <p key={cart.id}>{cart.name}</p>)
                 }
                 <button>Choose 1 for me</button>
             </div>

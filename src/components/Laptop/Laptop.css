@@ -1,7 +1,7 @@
 .laptop{
     width: 300px;
     height: 510px;
-    border: 1px solid #95A0A7;
+    border: 1px solid #2b373f;
     border-radius: 8px;
     background-color: #c4c4c4;
     
@@ -30,10 +30,20 @@
 .btn-cart {
     width: 100%;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
    
 }
 
 .btn-text {
     text-transform: uppercase;
      margin-right: 5px;
+     font-weight: 700;
+     color: black;
+}
+
+.btn-cart:hover {
+    border: 1px solid #2b373f;
+    background-color: orange;
 }
