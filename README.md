@@ -1,4 +1,4 @@
 # laptop shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project link [Live Website](https://laptop-shop-8.netlify.app/).
 
